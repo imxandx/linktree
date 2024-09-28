@@ -107,7 +107,7 @@ a {
 
 .img-user {
     width: 50px;
-    height: 65px;
+    height: 51px;
     border-radius: 8px;
     border: 2px solid var(--color-red);
 }
@@ -452,4 +452,11 @@ a {
 .meu-site img,
 .cv img {
     animation: pulse 3s infinite ease-in-out;
+}
+
+@media(max-width: 400px) {
+    .img-user img {
+        height: 47px;
+        object-fit: cover;
+    }
 }
